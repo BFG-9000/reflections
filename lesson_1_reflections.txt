@@ -1,0 +1,16 @@
+Question: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer:  The program was able to automatically scan the document so I viewed only the differences.
+This is one thing that computers can do much more efficiently than people.  I've had to rewrite entier
+programs from scratch because I was unable to find the error.
+Question: How could having easy access to the entire history of a file make you a more efficient
+programmer in the log term?
+Answer:  Allowing experimentation without fear of mishap can allow me to learn better programming skills quickly.  That way I am not afraid to try new things and mess up the program, as there are always easy ways to go back.  This could have helped out a lot on my soils.py program which is now inoperable and I don't know why.
+Question:  What do you think are the pros and cons of manually chosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Answer: Having versions automatically saved means you are less likely to go way too long without committing.  Honestly though, it makes much more sense to do it manually as having previous incomplete uncompilable versions is basically useless.
+Question:  Why do you think some version control systems, like Git, allow saving multiple files in one commit, while otheres, like Google Docs treat each file separately?  Google docs isn't coding specific so most of the time the files in google docs don't depend on each other.  Also, it is a simpler system that is more approachable for not-technical people.  That is a very important demographic for google docs.  Git, on the other hand, is by definition marketed towards more technically capable people and the files for a single project are very likely to be interdependent so saving multiple files in one commit is the most logical answer.
+Question:  How can you use the commands git log and git diff to view the history of files?
+Answer:  Git log shows the list of changes that have been made to the file over time, who made the change, and the notes they made of it.  git diff compares two listed changes and highlights the differences for you.  Green lines have been added and red lines have been deleted.
+Question:  How might using version control mak you more confident to make changes that could break something?
+Answer:  Because if you break something you just check out the previous version and try a new tactic.
+Question:  Now that I have my workspace set up, what do I want to try using Git for? 
+Answer:  Maybe taking another look at the python scripts that automate lod calcs, soil labelling, and soil legend creation.

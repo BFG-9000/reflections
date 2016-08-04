@@ -1,0 +1,2 @@
+Question:  What happens when you initializ a repository?  Why do you need to do it?
+Answer:  GIT sets up the folder structure and schema it needs to track changes in the current directory and indexes the files and folders within it.  You need that structure in order to use git to commit the changes you make.
