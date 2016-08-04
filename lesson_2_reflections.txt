@@ -2,3 +2,5 @@ Question:  What happens when you initializ a repository?  Why do you need to do 
 Answer:  GIT sets up the folder structure and schema it needs to track changes in the current directory and indexes the files and folders within it.  You need that structure in order to use git to commit the changes you make.
 Question: How is the staging area different from the working directory and the repository?  What value do yo think it offers?
 The staging area is a buffer between the working directory and the repository.  It allow you to choose what files are tracked by git in the working directory.
+Question: Haw can you use the staging area to make sure you have one commit per logical change:
+Answer:  By comparing the staging are to your working directory and repository you can verify the changes you are making only reflect 1 logical change.
