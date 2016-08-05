@@ -6,3 +6,7 @@ Question: Haw can you use the staging area to make sure you have one commit per 
 Answer:  By comparing the staging are to your working directory and repository you can verify the changes you are making only reflect 1 logical change.
 Question:  What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
 Answer:  When creating the soils.py program for gis there were many different changes I needed to make to the structure of the program as I learned more python and tried better ways to make the program.  Also the program then changed into one to create text for cad.  At that point it could have benefitted from commit tracking and branching.
+Question:  How do the diagrams help you visualize the branch structure?
+Answer:  We are very familiar with plants, trees, etc. and know about walking down different sidewalks and the graph provides a handy visual image to our brains that allows us to conceptualize the way the computer organizes and tracks commits.
+Question:  What is the result of mergin two branched together?  Why do we represent it in the diagram the way we do?
+Answer:  Merging two branches together takes all of the changes from both branches and combines them together on a line by line basis. We represent it in the diagram the way we do, because it is similar to the confluence of two rivers metaphorically.
