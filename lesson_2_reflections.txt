@@ -4,3 +4,5 @@ Question: How is the staging area different from the working directory and the r
 The staging area is a buffer between the working directory and the repository.  It allow you to choose what files are tracked by git in the working directory.
 Question: Haw can you use the staging area to make sure you have one commit per logical change:
 Answer:  By comparing the staging are to your working directory and repository you can verify the changes you are making only reflect 1 logical change.
+Question:  What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+Answer:  When creating the soils.py program for gis there were many different changes I needed to make to the structure of the program as I learned more python and tried better ways to make the program.  Also the program then changed into one to create text for cad.  At that point it could have benefitted from commit tracking and branching.
