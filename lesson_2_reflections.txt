@@ -10,3 +10,5 @@ Question:  How do the diagrams help you visualize the branch structure?
 Answer:  We are very familiar with plants, trees, etc. and know about walking down different sidewalks and the graph provides a handy visual image to our brains that allows us to conceptualize the way the computer organizes and tracks commits.
 Question:  What is the result of mergin two branched together?  Why do we represent it in the diagram the way we do?
 Answer:  Merging two branches together takes all of the changes from both branches and combines them together on a line by line basis. We represent it in the diagram the way we do, because it is similar to the confluence of two rivers metaphorically.
+Question:  What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Answer:  If the coding of both contributors is coordinated automatic merging should work quickly and accurately.  If the work being done on the branches is not being coordinated then automatic merging could cause some serious problems.  Manually merging seems to be tedious but is necessary when the same area of the program has been changed in different branches.
