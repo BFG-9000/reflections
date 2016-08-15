@@ -2,3 +2,8 @@ Question:  When would you want to use a remote repository rather than keeping al
 Answer:  In case of death of personal computer github is a good backup service that also enables collaboration.
 Question:  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Answer:  You may have 2 team members working on the same job and it may be necessary to keep them separate until your code has been adapted to run their edits correctly.
+Question: Describe the differences between forks, clones, and brnaches.  When would you use one instead of another?
+Answer:
+	Fork:  A fork is when you use github to clone a repository.  I would use the fork command on github to make a permanent new project.
+	Clones:  A clone is when I use git to clone a repository.  This can be on any machine.I would use the clone command to make my own local copy of a project that exists on github that I plan on mergin or updating.
+	Branch:  A branch is when I start a new edit path inside a repository.  This also can occur locally or on github.  I would use a branch when I am making temporary test edits that I intend to merge, or when I am working on the project with someone else and plan on merging both branches into the master at a later date.
