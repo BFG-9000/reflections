@@ -1,1 +1,4 @@
 Question:  When would you want to use a remote repository rather than keeping all your work local?
+Answer:  In case of death of personal computer github is a good backup service that also enables collaboration.
+Question:  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Answer:  You may have 2 team members working on the same job and it may be necessary to keep them separate until your code has been adapted to run their edits correctly.
