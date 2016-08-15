@@ -11,3 +11,5 @@ Question:  What is the benefit of having a copy of the last known state of the r
 Answer:  I can keep track of how many changes I have made since I last checked out the origin, and I have a record by which to judge changes to the origin on github by other people since I last checked it out.
 Question:  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 Answer:  Usually we make locale copies of the files then export out the parts that were changed only.  And insert them into the files at the correct places.  The syntax is much easier as there is none, but finding and solving conflicts would be much harder.
+Question: When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+Answer: When I am adding a feature to a program that I want to demonstrate to a collaborator without afffecting the master I can introduce a new branch for them to review without having to merge it into their master on their computer.
