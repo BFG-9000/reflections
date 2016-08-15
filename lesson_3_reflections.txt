@@ -7,3 +7,6 @@ Answer:
 	Fork:  A fork is when you use github to clone a repository.  I would use the fork command on github to make a permanent new project.
 	Clones:  A clone is when I use git to clone a repository.  This can be on any machine.I would use the clone command to make my own local copy of a project that exists on github that I plan on mergin or updating.
 	Branch:  A branch is when I start a new edit path inside a repository.  This also can occur locally or on github.  I would use a branch when I am making temporary test edits that I intend to merge, or when I am working on the project with someone else and plan on merging both branches into the master at a later date.
+Question:  What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer:  I can keep track of how many changes I have made since I last checked out the origin, and I have a record by which to judge changes to the origin on github by other people since I last checked it out.
+
