@@ -9,4 +9,5 @@ Answer:
 	Branch:  A branch is when I start a new edit path inside a repository.  This also can occur locally or on github.  I would use a branch when I am making temporary test edits that I intend to merge, or when I am working on the project with someone else and plan on merging both branches into the master at a later date.
 Question:  What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer:  I can keep track of how many changes I have made since I last checked out the origin, and I have a record by which to judge changes to the origin on github by other people since I last checked it out.
-
+Question:  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+Answer:  Usually we make locale copies of the files then export out the parts that were changed only.  And insert them into the files at the correct places.  The syntax is much easier as there is none, but finding and solving conflicts would be much harder.
